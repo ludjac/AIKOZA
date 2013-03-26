@@ -86,3 +86,5 @@
 
 (defn leftm? [node]
   (empty? ((node 1) :l)))
+
+(defn hej (prn "Hej jonatan"))
