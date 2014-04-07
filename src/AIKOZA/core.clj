@@ -231,7 +231,7 @@
 ;      (do (println c) (bestf cpop))
 ;      (do (println c) (println (bestind cpop)) (recur (nextgen goalf 3) (inc c))))))
 
-;;;;;;--------------- Plottar och övrigt skit --------------------;
+;;;;;;--------------- Plots --------------------;
 
 (use '(incanter core stats charts))
 ; Histogrammar fitness från en populaiton. 
